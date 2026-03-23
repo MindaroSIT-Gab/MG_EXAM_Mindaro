@@ -30,7 +30,7 @@ interface ReasonforRequestData {
     };
     return(
       <section>
-            <h2>Uncontrolled Form</h2>
+            <h2>Event Feedback</h2>
             <form onSubmit={handleUncontrolledSubmit}>
               <div>
                 <label>Student Name:</label><br/>
@@ -57,7 +57,7 @@ interface ReasonforRequestData {
                 <textarea ref={ReasonforRequestRef} required />
               </div>
               <br/>
-              <button type="submit" >Submit Uncontrolled Form</button>
+              <button type="submit" >Submit Event Feedback</button>
             </form>
           </section>
     )

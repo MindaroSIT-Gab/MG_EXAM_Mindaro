@@ -30,11 +30,11 @@ function BookRequest() {
   };
   return (
     <div style={{ padding: "40px", fontFamily: "Arial" }}>
-      <h1>Student Book Request</h1>
+      
 
      
       <section>
-        <h2>Controlled Form</h2>
+        <h2>Student Book Request</h2>
         <form onSubmit={handleControlledSubmit}>
           <div>
             <label>Student Name:</label><br/>
@@ -80,7 +80,7 @@ function BookRequest() {
             />
           </div>
           <br/>
-          <button type="submit">Submit Controlled Form</button>
+          <button type="submit">Submit Book Request</button>
         </form>
 
        
