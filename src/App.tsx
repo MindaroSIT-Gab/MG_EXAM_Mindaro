@@ -35,8 +35,8 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/bookrequest" element={<BookRequest />} />
-            <Route path="/eventfeedback" element={<EventFeedback />} />
+            <Route path="/book-request" element={<BookRequest />} />
+            <Route path="/event-feedback" element={<EventFeedback />} />
            
           
           </Routes>
